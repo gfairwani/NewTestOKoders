@@ -1,0 +1,31 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
+import React,{Component} from 'react';
+import {
+  SafeAreaView,
+  StyleSheet,
+  ScrollView,
+  View,
+  Text,
+  StatusBar,
+} from 'react-native';
+import Userlist from './src/Userlist';
+
+class App extends Component{
+
+  render(){
+    return(
+      <Userlist/>
+    )
+  }
+
+ 
+
+}
+export default App;
